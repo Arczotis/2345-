@@ -1,0 +1,60 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color:rgb(238, 234, 247);
+
+}
+
+p{
+    border: 2px solid black;
+    padding: 30px;
+    color:tomato;
+    font-size:larger;
+    
+        
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:brown
+}
+
+.paragraph{
+    min-width: 30%;
+    max-width: 40%;
+}
+
+.left{
+    background-color: #2196F3;
+    padding: 20px;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+}
+.center{
+    background-color: #f1f1f1;
+    padding: 20px;
+    float: left;
+    width: 50%; /* The width is 50%, by default */
+}
+.right{
+    background-color: #04AA6D;
+    padding: 20px;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+}
+#wtf{
+    width: 50%;
+
+}
+
+@media screen and (max-width: 1353px) {
+    .left, .center, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      box-sizing: border-box;
+    }
+    #wtf{
+        width: 100%;
+    }
+  }
